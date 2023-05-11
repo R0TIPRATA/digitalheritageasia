@@ -1,0 +1,91 @@
+#photo-360-viewer {
+  width: 100vw;
+  height: 50vh;
+  //width:80vw;
+  //height:80vh;
+  margin: 20px;
+}
+
+#vid-360-viewer {
+  width: 100vw;
+  height: 50vh;
+  //width:80vw;
+  //height:80vh;
+  margin: 20px;
+}
+
+// #popup-360-viewer {
+//   width: 1000px;
+//   height: 500px;
+//   margin-bottom: 24px;
+// }
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  padding: 8px 10%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  margin: 0px 4px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tab-content {
+  display: block;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#videos-tab{
+  display:none;
+}
+
+.gallery-panoramic{
+  img{
+    height:312.5px;
+    width:1000px;
+  }
+}
+
+.loadingoverlay{
+  display:none;
+  width:100%;
+  height:100%;
+  position:relative;
+  p{
+    position:absolute;
+    text-align:center;
+    margin-left:auto;
+    top:50%
+  }
+}
+
+.closebtnposition {
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

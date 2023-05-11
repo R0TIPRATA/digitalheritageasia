@@ -1,0 +1,47 @@
+.contact-lhs{
+    width:50vw;
+    height:100vh;
+    background-color: $gold;
+    padding: 120px 24px;
+
+}
+
+.contact-rhs{
+    padding: 120px 24px;
+}
+
+.contact-sect1{
+    padding-bottom:24px;
+}
+
+.contact-sect2{
+    p{
+        padding-bottom:8px;
+        display: block;
+    }
+    .rect-button{
+        padding-top: 24px;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:428px) {
+    .contact-lhs{
+        width:40vw;
+        height:100vh;
+        background-color: $gold;
+        padding: 120px 16px;
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+    .contact-rhs{
+        width:60vw;
+        padding: 120px 16px;
+        p{
+            display : block; 
+            overflow-wrap: break-word;
+        }
+    }
+}

@@ -1,0 +1,131 @@
+@mixin carouselimage($img){
+  /* The image used */
+  display:block;
+  background-image: url('../img/#{$img}');
+
+  height: 450px; //to change this
+  width: 350px;         
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+  color: white;
+}
+
+.img-cemetery1{
+  @include carouselimage('cemetery1.png');
+}
+
+.img-cemetery2{
+  @include carouselimage('cemetery3.png');
+}
+
+.img-cemetery3{
+  @include carouselimage('cemetery5.png');
+}
+
+.img-cemetery4{
+  @include carouselimage('cemetery6.png');
+}
+
+.img-residents1{
+  @include carouselimage('residents1.png');
+}
+
+.img-residents2{
+  @include carouselimage('residents2.png');
+}
+
+.panel .caption{ 
+  padding-top:16px;
+}  
+
+.carousel{
+  display:flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+  position: relative;
+  margin: 16px 0px;
+}
+
+
+.mySlides {
+  display: none;
+
+  img{
+    width:auto;
+    height:auto;
+  }
+
+  p{
+    padding-top: 16px;
+    width:auto;
+    text-align: center;
+  }
+}
+
+.btnWrapper{
+  //position: absolute;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+    cursor: pointer;
+    padding: 8px 14px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+    background-color: $midGray;
+
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 50%;
+  }
+
+   .prev{
+     left:0;
+   }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+  /* The dots/bullets/indicators */
+  .dot1, .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }

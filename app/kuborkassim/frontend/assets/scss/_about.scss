@@ -1,0 +1,43 @@
+.bgabout{
+    @include halfimagebg('about.png');
+}
+
+.resources{
+    padding:24px;
+    background-color: $gold;
+    i{
+        color: $midGray;
+    }
+    ol{
+        margin-top:4px;
+        li::marker{
+            color: $ashGray;
+        }
+    }
+}
+
+.resourceslist{
+    display:block;
+    background-color: white;
+    padding:16px;
+    border-radius: 24px;
+    p{
+        display:block;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+.menu-book-icon{
+    width:100%;
+    text-align: center;
+}

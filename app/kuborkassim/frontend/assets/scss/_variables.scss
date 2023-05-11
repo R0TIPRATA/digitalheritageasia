@@ -1,0 +1,36 @@
+//colors
+$darkGreen: #3C4D35;
+$forestGreen: #476E37;
+$leafGreen: #5E9C44;
+$vividGreen: #58C82A;
+$paleGreen: #EBFFE2;
+$sunYellow: #FFC400;
+$lemonYellow: #FCDA94;
+$paleYellow: #FFEDC7;
+$gold: #E3DFB7;
+$camelliaRed: #FF5151;
+$salmonPink: #EEB9B9;
+$palePink: #F5D8D8;
+$black: #303030;
+$darkGray: #444444;
+$ashGray: #757575;
+$midGray: #D0D0D0;
+$lightGray: #DFDFE0;
+$paleGray: #F2F2F2;
+$linkBlue: #2987CD;
+
+//font-sizes
+$font-sm: 0.875rem; //14px
+$font-med: 1.125rem; //18px
+$font-xm: 1.25rem; //20px
+$font-lg: 1.5rem; //24px
+$font-xl: 2rem; //32px
+$font-xxl: 3rem; //48px
+
+//buttons 
+button, .button{
+    padding: 1rem, 1.875rem;
+    border-radius:4px;
+    cursor: pointer;
+
+}

@@ -9,7 +9,7 @@ if (php_sapi_name() !== 'cli') {
 }
 
 $public_key = 'public_d6lzAMk67a4H5/wC1PpEuZnoOX4=';
-$your_private_key = 'private_Uv96AvNcJ8z8xlU63eRQvCC/9v4=';
+$your_private_key = '';
 $url_end_point = 'https://ik.imagekit.io/kuborkassim/';
 
 
